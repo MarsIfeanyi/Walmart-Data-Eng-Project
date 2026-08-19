@@ -10,7 +10,6 @@ models:
                 config:
                     where: "price > 0"
         
-
     - name: orders_t
       columns:
         - name: order_id
