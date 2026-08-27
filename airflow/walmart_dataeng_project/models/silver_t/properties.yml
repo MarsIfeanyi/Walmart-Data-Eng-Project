@@ -1,0 +1,21 @@
+version: 2
+
+models:
+    - name: products_t #The name should match the name of your files defined in the model.
+      columns:
+        - name: product_id
+          data_tests:
+            - not_null
+            - unique:
+                config:
+                    where: "price > 0"
+        
+    - name: orders_t
+      columns:
+        - name: order_id
+          datatests:
+            - not_null
+            - unique
+
+
+
