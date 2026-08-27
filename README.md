@@ -16,12 +16,7 @@ The data ingestion from the Agentic Database to Databricks uses Change Data Capt
 
 The CDC-based data ingestion pipeline that ingests data from Ghost DB into a Databricks Lakehouse, following a Bronze → Silver → Gold architecture."
 
-The CDC INgestion is a Databricks job
-
-
-
-
-
+The CDC Ingestion is a Databricks job
 
 
 ### Dataset
